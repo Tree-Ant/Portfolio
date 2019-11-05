@@ -7,10 +7,15 @@ body {
     background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUTEhMVFRUXFxcXFxcVFxgXFxcYFxcXFxcXFRcYHSggGBolHRcVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAAIDB//EACkQAQEBAAECBQMEAwEAAAAAAAABEQISITFRYXHwQZHRobHh8WKBwRP/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A9hvFWKVoGLDKORlAT5/bTOZ5/Y6CwQkGZBfn8tC0FKeoKAbIrErARgEBuM8jRQTPLk1GLwBtapDQWrVgoFAglBqlA/8An6odVIM2rVECnm1Z2EIMzi1iMBlLUAxHFgAa0zQOlkaDoMFq0GpfMUICIoQOJWjQVINBazvf0JgM3kONa6R0gur/ABv6flLIQAiIHTrDQHVoIMnUASqiBWM2lUElTYDO+Snq1BgCVoYYBUFi7gaLSPQBWpWbGoCsOLFoC2jWoIA1HPmIAtbwYDOJZ596oChVNBnDFQCsSqBRnlGoZQZkKhgCL3MVoBRKAVUrQE8VilUoKRUyqwFEtE4QCjVgMdXoHTEBqtRtBm0WEAqViBmmkUGYjasAWpUSAcMrJ0DDRsF5Z9KBxWHYpQUVhWACqANVSBSEKA1igxXhL+wNdPp+/wCUz0xAWa0sAQHFKCFKBjxOKIFWLWhygHFeK4w0AqZYzaBsXH1+6l81aC654b3axynDvvz3b0GkCCoMAKHGWuNBVRYgOjaVgN5Pn9IagGjVo0DDil9FAZtFvY4zgHjTYOPY0DAIdBKwaYAnssV46uPHOwMmQ0ArTKJhBVRSmUFRVv2+eAgIwGgIYlOwG08Z5Ma1x5A12RAMHiBAbjNNGAsF5fP5Mc+gHTVqw0Fq1YKBVDUoCqDV1ALxpvE6QYsMq5CUDDKx4NaC6QSDOYqdFoCVrqCkA2KwGwAjiBLB1LQanqKFoERQgelK0aCqRoLWd7nCDNs8Rxp6B0YBtUqVBRqwSEGen3axGAylqAWI4sABpmgZSzg0HT587pnUDOqerUZwFrQMAqCxAazrQ0EYzY1AVhWLQZvJa0AEEVIGU6w0B1aIQZptQA0VcUCrNrQoJKnAZDXZAUYrQCiUAwHVaCgxSqUFIqZVygGAapwAo1WAymsWegM4os81AUKIM4o1jIKxJAozyaOgxI0oYA6fdNIBFYGbzz6UGqr7nVAUVhlQAq0AbEkChQgNYozhvCewKoq0GaLPn5NAKlYgZpIoMxYbVgDUbGYBw6NQHEd90DN4nj6/dSq0F1TzPS5zh3106gKgUA0YRQWHGbWpQVSsQK1SlYBFNWAJBTi0EqkDNqxSIFWbWmeUArFxNoBWGYLfnz52BalqAGQgFTKIfncFVFKZQVFi3xGAjBDQErUCgHTxY6muNBq0ahKBlqxcb6EGbRabGcBca1g4wgouwmnQG4bBpgCeyvFWLhxwAmuyBn6sXx+eqQNcPGNfykAPPwSBnl9F5pAuPgZ4pAvq1ySBniPr/upAY2UC+foEgZ4nkUCpqQMNUoGIp9ff8FAr4NT/AIkDKSB//9k=");
 }
 
+#head {
+    border-bottom: solid 1px black;
+}
 
 h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 30px;
+    /*font-size: 30px;*/
+    margin-bottom: 0px;
+    padding: 10px 0px;
 }
 
 h2 {
@@ -20,46 +25,28 @@ h2 {
     border-bottom: solid 5px;
     padding-bottom: 20px;
 }
-
-/*header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: whitesmoke;    
-    height: 50px;
-    width: 100%;
-    overflow: auto;
-    border-bottom: solid grey;
-    border-width: 2px;
-    z-index: 1;
-}
-*/
+    
 a {
     color: grey;
     text-decoration: none; 
-    
-         
-    
-    
+      
 }
 
 #logo {
-    padding: 10px 0px;
+    padding-top: 10px;
     background: teal;
     color: whitesmoke;
-    /*margin-left: 450px;*/
-    width: 300px;
-    
+    /*margin-left: 450px;
+    width: 300px;*/    
     /*float: left;*/
     text-align: center;
+
     }
 
 #links {    
     padding: 20px;
     text-align: right;
-   
-    
-    
+      
 }
 
 #aboutSec{
@@ -87,7 +74,7 @@ a {
     
 }
 
-#portSec{
+/*#portSec{
     width: 960px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     position: relative;
@@ -99,7 +86,7 @@ a {
     border-radius: 0px;
     overflow: auto;    
     clear: both;
-}
+}*/
 
 #aboutImg {
     border-style: solid;
@@ -109,16 +96,19 @@ a {
     width: 250px;
     height: 250px;
     float: left;
+    border-radius: 180px;
 }
 
 #portImg{
+    padding:20px;
+    text-align: center;
     border-style: solid;
     border-width: 5px;
-    margin-right: 20px;
+    /*margin-right: 20px;
     margin-bottom: 20px;
     width: 250px;
     height: 250px;
-    float: left;
+    float: left;*/
 }
 
 #aboutContent {
@@ -130,20 +120,25 @@ a {
 }
 
 #portContent {
-    margin-top: 40px;
+   
+    text-align: center;
 }
 
 footer {
-    width: 100%;
-    font-size: 16px;
-    padding-top: 30px;
-    padding-bottom: 4px;
+    
+    
+    
+    
+      
+    color: whitesmoke;
     background: grey;
     text-align: center;
+    padding-bottom: 4px;
+    font-size: 16px;
+    padding-top: 30px;
     border-top: solid #4aaaa5;
-    border-width: 8px;  
-    color: whitesmoke;
-    
+    border-width: 8px;
+
 }
 
 #contactForm {
@@ -173,6 +168,23 @@ ul {
 }
 
 .jumbotron {
+    margin-top: 100px;
+    margin-bottom: 100px;
     border: solid 1px black;
     border-radius: 0px;
+    overflow: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+.aboutFooter {
+    margin-top: 50px;
+}
+
+.contactFooter {
+    margin-top: 100px;
+}
+
+.portFooter {
+    
+}
+
